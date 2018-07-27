@@ -9,11 +9,11 @@ class Ellington < Formula
   depends_on "mp4v2"
 
   def install
-    system "cargo build --release -VV"
+    system "cargo build --release -vv"
     bin.install "target/release/ellington"
   end
 
   test do
-    system "#{bin}cargo", "test", "--all", "-vv"
+    system "#{bin}cargo test --all -vv"
   end
 end
