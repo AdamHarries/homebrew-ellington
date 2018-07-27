@@ -4,7 +4,7 @@ class Ellington < Formula
   url "https://github.com/AdamHarries/ellington/archive/0.1.3-alpha.zip"
   sha256 "4ccdcfd58272071c2cec930b32afe02ba71c337175a57cba2a20f12eeb8a3cb3"
 
-  depends_on "rust" :build
+  depends_on "rust" => :build
   depends_on "id3v2"
   depends_on "mp4v2"
   def install
