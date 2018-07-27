@@ -7,6 +7,7 @@ class Ellington < Formula
   depends_on "rust" => :build
   depends_on "id3v2"
   depends_on "mp4v2"
+
   def install
     system "cargo build --release"
     bin.install "target/release/ellington"
