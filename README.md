@@ -7,7 +7,8 @@ This is the [Homebrew](https://brew.sh/) [tap](https://docs.brew.sh/Taps) for th
 Install Homebrew manually, and run
 
 ```
+brew tap AdamHarries/ellington
 brew install AdamHarries/ellington
 ```
 
-to install ellington. 
+to install ellington.
