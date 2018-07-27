@@ -9,7 +9,7 @@ class Ellington < Formula
   depends_on "mp4v2"
 
   def install
-    system "cargo build --release"
+    system "cargo build --release -VV"
     bin.install "target/release/ellington"
   end
 
